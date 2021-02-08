@@ -41,8 +41,10 @@ nav.navbar-transparente{
     color: white;
 }
 
+
 #rodape{
     background-color: black;
+    height: 100px;
 }
 
 .divisor{
