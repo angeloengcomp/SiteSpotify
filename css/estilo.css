@@ -56,6 +56,7 @@ nav.navbar-transparente{
 
 html, body, #home{
     height:100%;
+    overflow-x: hidden;
 }
 
 
@@ -106,6 +107,39 @@ h3{
     font-size: 2em;
     font-weight: 700;
     letter-spacing: -0.04em;
+}
+
+/* Rodapé
+-----------------------------*/
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative; /* prioridade sobre qualquer estrutura*/
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
 }
 
 
